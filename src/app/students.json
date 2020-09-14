@@ -1,0 +1,60 @@
+{
+  "students": [
+    {
+      "student_name": "sumit",
+      "student_email": "s@gmail.com",
+      "student_age": "24",
+      "student_isGraduate": true,
+      "student_branch": "CS",
+      "id": 1
+    },
+    {
+      "student_name": "sushil",
+      "student_email": "sus@gmail.com",
+      "student_age": "24",
+      "student_isGraduate": true,
+      "student_branch": "Mech",
+      "id": 2
+    },
+    {
+      "student_name": "Ram",
+      "student_email": "r@gmail.com",
+      "student_age": "30",
+      "student_isGraduate": true,
+      "student_branch": "EL",
+      "id": 3
+    },
+    {
+      "student_name": "radheShyam",
+      "student_email": "s@gmail.com",
+      "student_age": "22",
+      "student_isGraduate": false,
+      "student_branch": "IT",
+      "id": 4
+    },
+    {
+      "student_name": "Dinesh",
+      "student_email": "d@gmail.com",
+      "student_age": "30",
+      "student_isGraduate": true,
+      "student_branch": "CS",
+      "id": 6
+    },
+    {
+      "student_name": "kangna",
+      "student_email": "k@gmail.com",
+      "student_age": "26",
+      "student_isGraduate": true,
+      "student_branch": "IT",
+      "id": 7
+    },
+    {
+      "student_name": "rohit",
+      "student_email": "rohit@gmail.com",
+      "student_age": "24",
+      "student_isGraduate": true,
+      "student_branch": "Mech",
+      "id": 8
+    }
+  ]
+}

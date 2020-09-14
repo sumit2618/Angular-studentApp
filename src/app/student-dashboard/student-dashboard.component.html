@@ -1,0 +1,29 @@
+<div class="jumbotorn">
+  <table class="table table-bordered table-striped table-hover" style="margin:20px; border: 1px solid black;">
+      <thead>
+          <tr>
+              <th>Student name</th>
+              <th>Student Email</th>
+              <th>Student age</th>
+              <th>Student is Graduate?</th>
+              <th>Student branch</th>
+              <th>Edit data</th>
+              <th>delete</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let s of student">
+              <td>{{ s.student_name}}</td>
+              <td>{{s.student_email}}</td>
+              <td >{{s.student_age}}</td>
+
+              <td><input type="checkbox" [checked]="s.student_isGraduate" disabled></td>
+
+              <td>{{s.student_branch}}</td>
+              <td><a class="btn btn-info" [routerLink]="['/update',s.id]"> Edit Data </a> </td>
+              <!-- <td><a class="btn btn-danger" (click) = "delete(s.id)"> Delete </a> </td> -->
+              <td><a class="btn btn-danger" (click)="delete(s.id)"> Delete Data </a> </td>
+          </tr>
+      </tbody>
+  </table>
+  </div>
